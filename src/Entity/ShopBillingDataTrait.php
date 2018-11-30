@@ -15,7 +15,7 @@ trait ShopBillingDataTrait
      *
      * @var ShopBillingDataInterface
      */
-    private $billingData;
+    protected $billingData;
 
     public function getBillingData(): ?ShopBillingDataInterface
     {
